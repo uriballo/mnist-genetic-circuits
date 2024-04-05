@@ -1,0 +1,1203 @@
+
+
+Individual 3
+[303, 123, 220, 203, 201, 111, 101]
+Fitness: 64.0%
+qml.CNOT(wires=[0, 3])
+qml.RX(weights[0], wires=2)
+qml.RZ(weights[1], wires=2)
+qml.RZ(weights[2], wires=0)
+qml.RZ(weights[3], wires=0)
+qml.RX(weights[4], wires=1)
+qml.RX(weights[5], wires=0)
+--------------------
+
+
+Individual 4
+[421, 222, 332, 403, 423, 133, 313, 332]
+Fitness: 63.0%
+qml.Hadamard(wires=2)
+qml.RZ(weights[0], wires=2)
+qml.CNOT(wires=[3, 2])
+qml.Hadamard(wires=0)
+qml.Hadamard(wires=2)
+qml.RX(weights[1], wires=3)
+qml.CNOT(wires=[1, 3])
+qml.CNOT(wires=[3, 2])
+--------------------
+
+
+Individual 5
+[420, 410, 310]
+Fitness: 63.0%
+qml.Hadamard(wires=2)
+qml.Hadamard(wires=1)
+qml.CNOT(wires=[1, 0])
+--------------------
+
+
+Individual 6
+[232, 103, 100, 420, 211, 221, 422]
+Fitness: 63.0%
+qml.RZ(weights[0], wires=3)
+qml.RX(weights[1], wires=0)
+qml.RX(weights[2], wires=0)
+qml.Hadamard(wires=2)
+qml.RZ(weights[3], wires=1)
+qml.RZ(weights[4], wires=2)
+qml.Hadamard(wires=2)
+--------------------
+
+
+Individual 7
+[223, 413, 303, 321, 233, 211, 113, 223, 102]
+Fitness: 63.0%
+qml.RZ(weights[0], wires=2)
+qml.Hadamard(wires=1)
+qml.CNOT(wires=[0, 3])
+qml.CNOT(wires=[2, 1])
+qml.RZ(weights[1], wires=3)
+qml.RZ(weights[2], wires=1)
+qml.RX(weights[3], wires=1)
+qml.RZ(weights[4], wires=2)
+qml.RX(weights[5], wires=0)
+--------------------
+
+
+Individual 8
+[421, 210, 201]
+Fitness: 63.0%
+qml.Hadamard(wires=2)
+qml.RZ(weights[0], wires=1)
+qml.RZ(weights[1], wires=0)
+--------------------
+
+
+Individual 9
+[400, 211, 210, 123, 303, 401, 102, 413, 213]
+Fitness: 63.0%
+qml.Hadamard(wires=0)
+qml.RZ(weights[0], wires=1)
+qml.RZ(weights[1], wires=1)
+qml.RX(weights[2], wires=2)
+qml.CNOT(wires=[0, 3])
+qml.Hadamard(wires=0)
+qml.RX(weights[3], wires=0)
+qml.Hadamard(wires=1)
+qml.RZ(weights[4], wires=1)
+--------------------
+
+
+Individual 10
+[321, 320, 430]
+Fitness: 63.0%
+qml.CNOT(wires=[2, 1])
+qml.CNOT(wires=[2, 0])
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 11
+[432, 212, 111]
+Fitness: 63.0%
+qml.Hadamard(wires=3)
+qml.RZ(weights[0], wires=1)
+qml.RX(weights[1], wires=1)
+--------------------
+
+
+Individual 12
+[231, 132, 202, 410, 231, 102, 402, 301, 420]
+Fitness: 63.0%
+qml.RZ(weights[0], wires=3)
+qml.RX(weights[1], wires=3)
+qml.RZ(weights[2], wires=0)
+qml.Hadamard(wires=1)
+qml.RZ(weights[3], wires=3)
+qml.RX(weights[4], wires=0)
+qml.Hadamard(wires=0)
+qml.CNOT(wires=[0, 1])
+qml.Hadamard(wires=2)
+--------------------
+
+
+Individual 13
+[200, 410, 402]
+Fitness: 63.0%
+qml.RZ(weights[0], wires=0)
+qml.Hadamard(wires=1)
+qml.Hadamard(wires=0)
+--------------------
+
+
+Individual 14
+[320, 211, 430, 301, 102, 232, 432]
+Fitness: 63.0%
+qml.CNOT(wires=[2, 0])
+qml.RZ(weights[0], wires=1)
+qml.Hadamard(wires=3)
+qml.CNOT(wires=[0, 1])
+qml.RX(weights[1], wires=0)
+qml.RZ(weights[2], wires=3)
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 15
+[400, 410, 302, 313, 433, 122, 332, 413, 213]
+Fitness: 63.0%
+qml.Hadamard(wires=0)
+qml.Hadamard(wires=1)
+qml.CNOT(wires=[0, 2])
+qml.CNOT(wires=[1, 3])
+qml.Hadamard(wires=3)
+qml.RX(weights[0], wires=2)
+qml.CNOT(wires=[3, 2])
+qml.Hadamard(wires=1)
+qml.RZ(weights[1], wires=1)
+--------------------
+
+
+Individual 16
+[423, 320, 211, 301, 221, 431, 110]
+Fitness: 63.0%
+qml.Hadamard(wires=2)
+qml.CNOT(wires=[2, 0])
+qml.RZ(weights[0], wires=1)
+qml.CNOT(wires=[0, 1])
+qml.RZ(weights[1], wires=2)
+qml.Hadamard(wires=3)
+qml.RX(weights[2], wires=1)
+--------------------
+
+
+Individual 17
+[102, 113, 313, 303, 233, 113, 433]
+Fitness: 62.0%
+qml.RX(weights[0], wires=0)
+qml.RX(weights[1], wires=1)
+qml.CNOT(wires=[1, 3])
+qml.CNOT(wires=[0, 3])
+qml.RZ(weights[2], wires=3)
+qml.RX(weights[3], wires=1)
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 18
+[111, 220, 420]
+Fitness: 62.0%
+qml.RX(weights[0], wires=1)
+qml.RZ(weights[1], wires=2)
+qml.Hadamard(wires=2)
+--------------------
+
+
+Individual 19
+[413, 231, 203, 122, 312, 231, 323, 331]
+Fitness: 62.0%
+qml.Hadamard(wires=1)
+qml.RZ(weights[0], wires=3)
+qml.RZ(weights[1], wires=0)
+qml.RX(weights[2], wires=2)
+qml.CNOT(wires=[1, 2])
+qml.RZ(weights[3], wires=3)
+qml.CNOT(wires=[2, 3])
+qml.CNOT(wires=[3, 1])
+--------------------
+
+
+Individual 20
+[231, 200, 233, 321, 131, 411, 211, 111]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=3)
+qml.RZ(weights[1], wires=0)
+qml.RZ(weights[2], wires=3)
+qml.CNOT(wires=[2, 1])
+qml.RX(weights[3], wires=3)
+qml.Hadamard(wires=1)
+qml.RZ(weights[4], wires=1)
+qml.RX(weights[5], wires=1)
+--------------------
+
+
+Individual 21
+[312, 101, 100, 230, 330, 423, 401, 233, 220]
+Fitness: 62.0%
+qml.CNOT(wires=[1, 2])
+qml.RX(weights[0], wires=0)
+qml.RX(weights[1], wires=0)
+qml.RZ(weights[2], wires=3)
+qml.CNOT(wires=[3, 0])
+qml.Hadamard(wires=2)
+qml.Hadamard(wires=0)
+qml.RZ(weights[3], wires=3)
+qml.RZ(weights[4], wires=2)
+--------------------
+
+
+Individual 22
+[432, 121, 111]
+Fitness: 62.0%
+qml.Hadamard(wires=3)
+qml.RX(weights[0], wires=2)
+qml.RX(weights[1], wires=1)
+--------------------
+
+
+Individual 23
+[130, 320, 211, 301, 221, 111, 110]
+Fitness: 62.0%
+qml.RX(weights[0], wires=3)
+qml.CNOT(wires=[2, 0])
+qml.RZ(weights[1], wires=1)
+qml.CNOT(wires=[0, 1])
+qml.RZ(weights[2], wires=2)
+qml.RX(weights[3], wires=1)
+qml.RX(weights[4], wires=1)
+--------------------
+
+
+Individual 24
+[201, 132, 202]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=0)
+qml.RX(weights[1], wires=3)
+qml.RZ(weights[2], wires=0)
+--------------------
+
+
+Individual 25
+[303, 123, 220, 101, 201, 111, 101]
+Fitness: 62.0%
+qml.CNOT(wires=[0, 3])
+qml.RX(weights[0], wires=2)
+qml.RZ(weights[1], wires=2)
+qml.RX(weights[2], wires=0)
+qml.RZ(weights[3], wires=0)
+qml.RX(weights[4], wires=1)
+qml.RX(weights[5], wires=0)
+--------------------
+
+
+Individual 26
+[321, 320, 430, 400, 231, 402, 432]
+Fitness: 62.0%
+qml.CNOT(wires=[2, 1])
+qml.CNOT(wires=[2, 0])
+qml.Hadamard(wires=3)
+qml.Hadamard(wires=0)
+qml.RZ(weights[0], wires=3)
+qml.Hadamard(wires=0)
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 27
+[433, 131, 430, 422, 231, 330, 432]
+Fitness: 62.0%
+qml.Hadamard(wires=3)
+qml.RX(weights[0], wires=3)
+qml.Hadamard(wires=3)
+qml.Hadamard(wires=2)
+qml.RZ(weights[1], wires=3)
+qml.CNOT(wires=[3, 0])
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 28
+[231, 200]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=3)
+qml.RZ(weights[1], wires=0)
+--------------------
+
+
+Individual 29
+[232, 413, 233, 321, 131, 411, 211, 111]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=3)
+qml.Hadamard(wires=1)
+qml.RZ(weights[1], wires=3)
+qml.CNOT(wires=[2, 1])
+qml.RX(weights[2], wires=3)
+qml.Hadamard(wires=1)
+qml.RZ(weights[3], wires=1)
+qml.RX(weights[4], wires=1)
+--------------------
+
+
+Individual 30
+[201, 132, 202, 410, 420, 102, 402, 301, 420]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=0)
+qml.RX(weights[1], wires=3)
+qml.RZ(weights[2], wires=0)
+qml.Hadamard(wires=1)
+qml.Hadamard(wires=2)
+qml.RX(weights[3], wires=0)
+qml.Hadamard(wires=0)
+qml.CNOT(wires=[0, 1])
+qml.Hadamard(wires=2)
+--------------------
+
+
+Individual 31
+[400, 211, 210, 123, 303, 401, 102, 413, 213]
+Fitness: 62.0%
+qml.Hadamard(wires=0)
+qml.RZ(weights[0], wires=1)
+qml.RZ(weights[1], wires=1)
+qml.RX(weights[2], wires=2)
+qml.CNOT(wires=[0, 3])
+qml.Hadamard(wires=0)
+qml.RX(weights[3], wires=0)
+qml.Hadamard(wires=1)
+qml.RZ(weights[4], wires=1)
+--------------------
+
+
+Individual 32
+[200, 410, 402, 313, 101, 122, 332, 201, 320]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=0)
+qml.Hadamard(wires=1)
+qml.Hadamard(wires=0)
+qml.CNOT(wires=[1, 3])
+qml.RX(weights[1], wires=0)
+qml.RX(weights[2], wires=2)
+qml.CNOT(wires=[3, 2])
+qml.RZ(weights[3], wires=0)
+qml.CNOT(wires=[2, 0])
+--------------------
+
+
+Individual 33
+[422, 423, 402, 101, 412, 432, 413, 103, 111]
+Fitness: 62.0%
+qml.Hadamard(wires=2)
+qml.Hadamard(wires=2)
+qml.Hadamard(wires=0)
+qml.RX(weights[0], wires=0)
+qml.Hadamard(wires=1)
+qml.Hadamard(wires=3)
+qml.Hadamard(wires=1)
+qml.RX(weights[1], wires=0)
+qml.RX(weights[2], wires=1)
+--------------------
+
+
+Individual 34
+[232, 103, 430, 420, 122, 410, 422]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=3)
+qml.RX(weights[1], wires=0)
+qml.Hadamard(wires=3)
+qml.Hadamard(wires=2)
+qml.RX(weights[2], wires=2)
+qml.Hadamard(wires=1)
+qml.Hadamard(wires=2)
+--------------------
+
+
+Individual 35
+[231, 401, 331, 421, 312, 401, 101]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=3)
+qml.Hadamard(wires=0)
+qml.CNOT(wires=[3, 1])
+qml.Hadamard(wires=2)
+qml.CNOT(wires=[1, 2])
+qml.Hadamard(wires=0)
+qml.RX(weights[1], wires=0)
+--------------------
+
+
+Individual 36
+[421, 200, 111, 200, 303, 401, 301, 111, 213]
+Fitness: 62.0%
+qml.Hadamard(wires=2)
+qml.RZ(weights[0], wires=0)
+qml.RX(weights[1], wires=1)
+qml.RZ(weights[2], wires=0)
+qml.CNOT(wires=[0, 3])
+qml.Hadamard(wires=0)
+qml.CNOT(wires=[0, 1])
+qml.RX(weights[3], wires=1)
+qml.RZ(weights[4], wires=1)
+--------------------
+
+
+Individual 37
+[312, 332, 212, 230, 330, 423, 401, 233]
+Fitness: 62.0%
+qml.CNOT(wires=[1, 2])
+qml.CNOT(wires=[3, 2])
+qml.RZ(weights[0], wires=1)
+qml.RZ(weights[1], wires=3)
+qml.CNOT(wires=[3, 0])
+qml.Hadamard(wires=2)
+qml.Hadamard(wires=0)
+qml.RZ(weights[2], wires=3)
+--------------------
+
+
+Individual 38
+[100, 132, 303]
+Fitness: 62.0%
+qml.RX(weights[0], wires=0)
+qml.RX(weights[1], wires=3)
+qml.CNOT(wires=[0, 3])
+--------------------
+
+
+Individual 39
+[432, 212, 111]
+Fitness: 62.0%
+qml.Hadamard(wires=3)
+qml.RZ(weights[0], wires=1)
+qml.RX(weights[1], wires=1)
+--------------------
+
+
+Individual 40
+[213, 210, 100, 420, 211, 403, 422, 321, 320]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=1)
+qml.RZ(weights[1], wires=1)
+qml.RX(weights[2], wires=0)
+qml.Hadamard(wires=2)
+qml.RZ(weights[3], wires=1)
+qml.Hadamard(wires=0)
+qml.Hadamard(wires=2)
+qml.CNOT(wires=[2, 1])
+qml.CNOT(wires=[2, 0])
+--------------------
+
+
+Individual 41
+[401, 332, 122, 222, 301, 132, 433]
+Fitness: 62.0%
+qml.Hadamard(wires=0)
+qml.CNOT(wires=[3, 2])
+qml.RX(weights[0], wires=2)
+qml.RZ(weights[1], wires=2)
+qml.CNOT(wires=[0, 1])
+qml.RX(weights[2], wires=3)
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 42
+[220, 321, 121, 101]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=2)
+qml.CNOT(wires=[2, 1])
+qml.RX(weights[1], wires=2)
+qml.RX(weights[2], wires=0)
+--------------------
+
+
+Individual 43
+[423, 320, 420, 231, 130, 431, 110]
+Fitness: 62.0%
+qml.Hadamard(wires=2)
+qml.CNOT(wires=[2, 0])
+qml.Hadamard(wires=2)
+qml.RZ(weights[0], wires=3)
+qml.RX(weights[1], wires=3)
+qml.Hadamard(wires=3)
+qml.RX(weights[2], wires=1)
+--------------------
+
+
+Individual 44
+[232, 320, 233, 321, 131, 411, 211, 111]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=3)
+qml.CNOT(wires=[2, 0])
+qml.RZ(weights[1], wires=3)
+qml.CNOT(wires=[2, 1])
+qml.RX(weights[2], wires=3)
+qml.Hadamard(wires=1)
+qml.RZ(weights[3], wires=1)
+qml.RX(weights[4], wires=1)
+--------------------
+
+
+Individual 45
+[130, 400, 212, 201, 412, 122, 231, 323]
+Fitness: 62.0%
+qml.RX(weights[0], wires=3)
+qml.Hadamard(wires=0)
+qml.RZ(weights[1], wires=1)
+qml.RZ(weights[2], wires=0)
+qml.Hadamard(wires=1)
+qml.RX(weights[3], wires=2)
+qml.RZ(weights[4], wires=3)
+qml.CNOT(wires=[2, 3])
+--------------------
+
+
+Individual 46
+[232, 413, 420]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=3)
+qml.Hadamard(wires=1)
+qml.Hadamard(wires=2)
+--------------------
+
+
+Individual 47
+[223, 312, 430]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=2)
+qml.CNOT(wires=[1, 2])
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 48
+[231, 200, 430, 110, 433, 110, 131, 111]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=3)
+qml.RZ(weights[1], wires=0)
+qml.Hadamard(wires=3)
+qml.RX(weights[2], wires=1)
+qml.Hadamard(wires=3)
+qml.RX(weights[3], wires=1)
+qml.RX(weights[4], wires=3)
+qml.RX(weights[5], wires=1)
+--------------------
+
+
+Individual 49
+[231, 210]
+Fitness: 62.0%
+qml.RZ(weights[0], wires=3)
+qml.RZ(weights[1], wires=1)
+--------------------
+
+
+Individual 50
+[430, 133, 101, 110, 433, 421, 131, 110]
+Fitness: 61.0%
+qml.Hadamard(wires=3)
+qml.RX(weights[0], wires=3)
+qml.RX(weights[1], wires=0)
+qml.RX(weights[2], wires=1)
+qml.Hadamard(wires=3)
+qml.Hadamard(wires=2)
+qml.RX(weights[3], wires=3)
+qml.RX(weights[4], wires=1)
+--------------------
+
+
+Individual 51
+[100, 312, 303]
+Fitness: 61.0%
+qml.RX(weights[0], wires=0)
+qml.CNOT(wires=[1, 2])
+qml.CNOT(wires=[0, 3])
+--------------------
+
+
+Individual 52
+[122, 221, 410, 422, 401, 212, 413, 103]
+Fitness: 61.0%
+qml.RX(weights[0], wires=2)
+qml.RZ(weights[1], wires=2)
+qml.Hadamard(wires=1)
+qml.Hadamard(wires=2)
+qml.Hadamard(wires=0)
+qml.RZ(weights[2], wires=1)
+qml.Hadamard(wires=1)
+qml.RX(weights[3], wires=0)
+--------------------
+
+
+Individual 53
+[413, 112, 321, 401, 332]
+Fitness: 61.0%
+qml.Hadamard(wires=1)
+qml.RX(weights[0], wires=1)
+qml.CNOT(wires=[2, 1])
+qml.Hadamard(wires=0)
+qml.CNOT(wires=[3, 2])
+--------------------
+
+
+Individual 54
+[400, 433, 111, 323]
+Fitness: 61.0%
+qml.Hadamard(wires=0)
+qml.Hadamard(wires=3)
+qml.RX(weights[0], wires=1)
+qml.CNOT(wires=[2, 3])
+--------------------
+
+
+Individual 55
+[320, 410, 221, 301, 102, 122, 332]
+Fitness: 61.0%
+qml.CNOT(wires=[2, 0])
+qml.Hadamard(wires=1)
+qml.RZ(weights[0], wires=2)
+qml.CNOT(wires=[0, 1])
+qml.RX(weights[1], wires=0)
+qml.RX(weights[2], wires=2)
+qml.CNOT(wires=[3, 2])
+--------------------
+
+
+Individual 56
+[203, 111, 410, 101, 412, 110, 323, 113, 111]
+Fitness: 61.0%
+qml.RZ(weights[0], wires=0)
+qml.RX(weights[1], wires=1)
+qml.Hadamard(wires=1)
+qml.RX(weights[2], wires=0)
+qml.Hadamard(wires=1)
+qml.RX(weights[3], wires=1)
+qml.CNOT(wires=[2, 3])
+qml.RX(weights[4], wires=1)
+qml.RX(weights[5], wires=1)
+--------------------
+
+
+Individual 57
+[232, 413]
+Fitness: 61.0%
+qml.RZ(weights[0], wires=3)
+qml.Hadamard(wires=1)
+--------------------
+
+
+Individual 58
+[302, 400, 231, 431, 121, 122, 231, 323]
+Fitness: 61.0%
+qml.CNOT(wires=[0, 2])
+qml.Hadamard(wires=0)
+qml.RZ(weights[0], wires=3)
+qml.Hadamard(wires=3)
+qml.RX(weights[1], wires=2)
+qml.RX(weights[2], wires=2)
+qml.RZ(weights[3], wires=3)
+qml.CNOT(wires=[2, 3])
+--------------------
+
+
+Individual 59
+[220, 332, 121, 101, 301, 132, 433]
+Fitness: 61.0%
+qml.RZ(weights[0], wires=2)
+qml.CNOT(wires=[3, 2])
+qml.RX(weights[1], wires=2)
+qml.RX(weights[2], wires=0)
+qml.CNOT(wires=[0, 1])
+qml.RX(weights[3], wires=3)
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 60
+[130, 211, 200, 410, 420, 102, 402, 301, 420]
+Fitness: 61.0%
+qml.RX(weights[0], wires=3)
+qml.RZ(weights[1], wires=1)
+qml.RZ(weights[2], wires=0)
+qml.Hadamard(wires=1)
+qml.Hadamard(wires=2)
+qml.RX(weights[3], wires=0)
+qml.Hadamard(wires=0)
+qml.CNOT(wires=[0, 1])
+qml.Hadamard(wires=2)
+--------------------
+
+
+Individual 61
+[232, 332, 212, 201, 412, 221, 203, 223]
+Fitness: 61.0%
+qml.RZ(weights[0], wires=3)
+qml.CNOT(wires=[3, 2])
+qml.RZ(weights[1], wires=1)
+qml.RZ(weights[2], wires=0)
+qml.Hadamard(wires=1)
+qml.RZ(weights[3], wires=2)
+qml.RZ(weights[4], wires=0)
+qml.RZ(weights[5], wires=2)
+--------------------
+
+
+Individual 62
+[331, 402, 111, 133]
+Fitness: 61.0%
+qml.CNOT(wires=[3, 1])
+qml.Hadamard(wires=0)
+qml.RX(weights[0], wires=1)
+qml.RX(weights[1], wires=3)
+--------------------
+
+
+Individual 63
+[133, 200, 233, 321]
+Fitness: 61.0%
+qml.RX(weights[0], wires=3)
+qml.RZ(weights[1], wires=0)
+qml.RZ(weights[2], wires=3)
+qml.CNOT(wires=[2, 1])
+--------------------
+
+
+Individual 64
+[100, 312, 303, 102, 422]
+Fitness: 61.0%
+qml.RX(weights[0], wires=0)
+qml.CNOT(wires=[1, 2])
+qml.CNOT(wires=[0, 3])
+qml.RX(weights[1], wires=0)
+qml.Hadamard(wires=2)
+--------------------
+
+
+Individual 65
+[432, 121, 430, 400, 231, 402, 432]
+Fitness: 61.0%
+qml.Hadamard(wires=3)
+qml.RX(weights[0], wires=2)
+qml.Hadamard(wires=3)
+qml.Hadamard(wires=0)
+qml.RZ(weights[1], wires=3)
+qml.Hadamard(wires=0)
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 66
+[413, 121, 111, 432, 332, 213, 102, 202, 321]
+Fitness: 61.0%
+qml.Hadamard(wires=1)
+qml.RX(weights[0], wires=2)
+qml.RX(weights[1], wires=1)
+qml.Hadamard(wires=3)
+qml.CNOT(wires=[3, 2])
+qml.RZ(weights[2], wires=1)
+qml.RX(weights[3], wires=0)
+qml.RZ(weights[4], wires=0)
+qml.CNOT(wires=[2, 1])
+--------------------
+
+
+Individual 67
+[321, 320, 430, 203, 200, 402, 432]
+Fitness: 61.0%
+qml.CNOT(wires=[2, 1])
+qml.CNOT(wires=[2, 0])
+qml.Hadamard(wires=3)
+qml.RZ(weights[0], wires=0)
+qml.RZ(weights[1], wires=0)
+qml.Hadamard(wires=0)
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 68
+[302, 400, 111, 431, 332, 122, 231, 202]
+Fitness: 61.0%
+qml.CNOT(wires=[0, 2])
+qml.Hadamard(wires=0)
+qml.RX(weights[0], wires=1)
+qml.Hadamard(wires=3)
+qml.CNOT(wires=[3, 2])
+qml.RX(weights[1], wires=2)
+qml.RZ(weights[2], wires=3)
+qml.RZ(weights[3], wires=0)
+--------------------
+
+
+Individual 69
+[401, 321, 122, 222]
+Fitness: 61.0%
+qml.Hadamard(wires=0)
+qml.CNOT(wires=[2, 1])
+qml.RX(weights[0], wires=2)
+qml.RZ(weights[1], wires=2)
+--------------------
+
+
+Individual 70
+[130, 211, 430]
+Fitness: 61.0%
+qml.RX(weights[0], wires=3)
+qml.RZ(weights[1], wires=1)
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 71
+[123, 230, 223, 331, 433, 110, 133]
+Fitness: 61.0%
+qml.RX(weights[0], wires=2)
+qml.RZ(weights[1], wires=3)
+qml.RZ(weights[2], wires=2)
+qml.CNOT(wires=[3, 1])
+qml.Hadamard(wires=3)
+qml.RX(weights[3], wires=1)
+qml.RX(weights[4], wires=3)
+--------------------
+
+
+Individual 72
+[122, 111, 410, 420, 412, 212, 422]
+Fitness: 61.0%
+qml.RX(weights[0], wires=2)
+qml.RX(weights[1], wires=1)
+qml.Hadamard(wires=1)
+qml.Hadamard(wires=2)
+qml.Hadamard(wires=1)
+qml.RZ(weights[2], wires=1)
+qml.Hadamard(wires=2)
+--------------------
+
+
+Individual 73
+[321, 320, 122]
+Fitness: 61.0%
+qml.CNOT(wires=[2, 1])
+qml.CNOT(wires=[2, 0])
+qml.RX(weights[0], wires=2)
+--------------------
+
+
+Individual 74
+[231, 111, 430, 313, 412, 212, 413, 103, 111]
+Fitness: 61.0%
+qml.RZ(weights[0], wires=3)
+qml.RX(weights[1], wires=1)
+qml.Hadamard(wires=3)
+qml.CNOT(wires=[1, 3])
+qml.Hadamard(wires=1)
+qml.RZ(weights[2], wires=1)
+qml.Hadamard(wires=1)
+qml.RX(weights[3], wires=0)
+qml.RX(weights[4], wires=1)
+--------------------
+
+
+Individual 75
+[423, 433, 420, 231, 130, 431]
+Fitness: 61.0%
+qml.Hadamard(wires=2)
+qml.Hadamard(wires=3)
+qml.Hadamard(wires=2)
+qml.RZ(weights[0], wires=3)
+qml.RX(weights[1], wires=3)
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 76
+[422, 230, 223, 203, 201, 332, 310, 303]
+Fitness: 61.0%
+qml.Hadamard(wires=2)
+qml.RZ(weights[0], wires=3)
+qml.RZ(weights[1], wires=2)
+qml.RZ(weights[2], wires=0)
+qml.RZ(weights[3], wires=0)
+qml.CNOT(wires=[3, 2])
+qml.CNOT(wires=[1, 0])
+qml.CNOT(wires=[0, 3])
+--------------------
+
+
+Individual 77
+[201, 132, 400, 422, 420, 301, 203, 330, 420]
+Fitness: 61.0%
+qml.RZ(weights[0], wires=0)
+qml.RX(weights[1], wires=3)
+qml.Hadamard(wires=0)
+qml.Hadamard(wires=2)
+qml.Hadamard(wires=2)
+qml.CNOT(wires=[0, 1])
+qml.RZ(weights[2], wires=0)
+qml.CNOT(wires=[3, 0])
+qml.Hadamard(wires=2)
+--------------------
+
+
+Individual 78
+[133, 312, 111, 123, 303, 401, 410, 111, 213]
+Fitness: 61.0%
+qml.RX(weights[0], wires=3)
+qml.CNOT(wires=[1, 2])
+qml.RX(weights[1], wires=1)
+qml.RX(weights[2], wires=2)
+qml.CNOT(wires=[0, 3])
+qml.Hadamard(wires=0)
+qml.Hadamard(wires=1)
+qml.RX(weights[3], wires=1)
+qml.RZ(weights[4], wires=1)
+--------------------
+
+
+Individual 79
+[401, 121, 122]
+Fitness: 61.0%
+qml.Hadamard(wires=0)
+qml.RX(weights[0], wires=2)
+qml.RX(weights[1], wires=2)
+--------------------
+
+
+Individual 80
+[231, 200, 402, 203, 131, 411, 211, 111]
+Fitness: 61.0%
+qml.RZ(weights[0], wires=3)
+qml.RZ(weights[1], wires=0)
+qml.Hadamard(wires=0)
+qml.RZ(weights[2], wires=0)
+qml.RX(weights[3], wires=3)
+qml.Hadamard(wires=1)
+qml.RZ(weights[4], wires=1)
+qml.RX(weights[5], wires=1)
+--------------------
+
+
+Individual 81
+[230, 410, 402, 421, 312, 122, 332]
+Fitness: 61.0%
+qml.RZ(weights[0], wires=3)
+qml.Hadamard(wires=1)
+qml.Hadamard(wires=0)
+qml.Hadamard(wires=2)
+qml.CNOT(wires=[1, 2])
+qml.RX(weights[1], wires=2)
+qml.CNOT(wires=[3, 2])
+--------------------
+
+
+Individual 82
+[401, 332, 121, 101, 101, 122, 332]
+Fitness: 61.0%
+qml.Hadamard(wires=0)
+qml.CNOT(wires=[3, 2])
+qml.RX(weights[0], wires=2)
+qml.RX(weights[1], wires=0)
+qml.RX(weights[2], wires=0)
+qml.RX(weights[3], wires=2)
+qml.CNOT(wires=[3, 2])
+--------------------
+
+
+Individual 83
+[231, 200, 233, 110, 433, 411, 131, 111]
+Fitness: 61.0%
+qml.RZ(weights[0], wires=3)
+qml.RZ(weights[1], wires=0)
+qml.RZ(weights[2], wires=3)
+qml.RX(weights[3], wires=1)
+qml.Hadamard(wires=3)
+qml.Hadamard(wires=1)
+qml.RX(weights[4], wires=3)
+qml.RX(weights[5], wires=1)
+--------------------
+
+
+Individual 84
+[321, 410, 302, 313, 433, 122, 332]
+Fitness: 61.0%
+qml.CNOT(wires=[2, 1])
+qml.Hadamard(wires=1)
+qml.CNOT(wires=[0, 2])
+qml.CNOT(wires=[1, 3])
+qml.Hadamard(wires=3)
+qml.RX(weights[0], wires=2)
+qml.CNOT(wires=[3, 2])
+--------------------
+
+
+Individual 85
+[413, 200, 432, 110, 433, 411, 131, 111]
+Fitness: 61.0%
+qml.Hadamard(wires=1)
+qml.RZ(weights[0], wires=0)
+qml.Hadamard(wires=3)
+qml.RX(weights[1], wires=1)
+qml.Hadamard(wires=3)
+qml.Hadamard(wires=1)
+qml.RX(weights[2], wires=3)
+qml.RX(weights[3], wires=1)
+--------------------
+
+
+Individual 86
+[400, 211, 410, 101, 231, 432, 321]
+Fitness: 61.0%
+qml.Hadamard(wires=0)
+qml.RZ(weights[0], wires=1)
+qml.Hadamard(wires=1)
+qml.RX(weights[1], wires=0)
+qml.RZ(weights[2], wires=3)
+qml.Hadamard(wires=3)
+qml.CNOT(wires=[2, 1])
+--------------------
+
+
+Individual 87
+[413, 231, 203, 203, 131, 231, 211, 331]
+Fitness: 61.0%
+qml.Hadamard(wires=1)
+qml.RZ(weights[0], wires=3)
+qml.RZ(weights[1], wires=0)
+qml.RZ(weights[2], wires=0)
+qml.RX(weights[3], wires=3)
+qml.RZ(weights[4], wires=3)
+qml.RZ(weights[5], wires=1)
+qml.CNOT(wires=[3, 1])
+--------------------
+
+
+Individual 88
+[212, 212, 403]
+Fitness: 61.0%
+qml.RZ(weights[0], wires=1)
+qml.RZ(weights[1], wires=1)
+qml.Hadamard(wires=0)
+--------------------
+
+
+Individual 89
+[433, 230, 430, 331, 433, 110, 133]
+Fitness: 61.0%
+qml.Hadamard(wires=3)
+qml.RZ(weights[0], wires=3)
+qml.Hadamard(wires=3)
+qml.CNOT(wires=[3, 1])
+qml.Hadamard(wires=3)
+qml.RX(weights[1], wires=1)
+qml.RX(weights[2], wires=3)
+--------------------
+
+
+Individual 90
+[321, 320, 111]
+Fitness: 61.0%
+qml.CNOT(wires=[2, 1])
+qml.CNOT(wires=[2, 0])
+qml.RX(weights[0], wires=1)
+--------------------
+
+
+Individual 91
+[100, 410, 402, 313, 101, 122, 332, 201, 320]
+Fitness: 61.0%
+qml.RX(weights[0], wires=0)
+qml.Hadamard(wires=1)
+qml.Hadamard(wires=0)
+qml.CNOT(wires=[1, 3])
+qml.RX(weights[1], wires=0)
+qml.RX(weights[2], wires=2)
+qml.CNOT(wires=[3, 2])
+qml.RZ(weights[3], wires=0)
+qml.CNOT(wires=[2, 0])
+--------------------
+
+
+Individual 92
+[321, 211, 221]
+Fitness: 61.0%
+qml.CNOT(wires=[2, 1])
+qml.RZ(weights[0], wires=1)
+qml.RZ(weights[1], wires=2)
+--------------------
+
+
+Individual 93
+[432, 102, 430]
+Fitness: 61.0%
+qml.Hadamard(wires=3)
+qml.RX(weights[0], wires=0)
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 94
+[223, 413, 430, 400, 233, 211, 432, 223, 102]
+Fitness: 61.0%
+qml.RZ(weights[0], wires=2)
+qml.Hadamard(wires=1)
+qml.Hadamard(wires=3)
+qml.Hadamard(wires=0)
+qml.RZ(weights[1], wires=3)
+qml.RZ(weights[2], wires=1)
+qml.Hadamard(wires=3)
+qml.RZ(weights[3], wires=2)
+qml.RX(weights[4], wires=0)
+--------------------
+
+
+Individual 95
+[130, 320, 211, 301, 221, 111, 110]
+Fitness: 61.0%
+qml.RX(weights[0], wires=3)
+qml.CNOT(wires=[2, 0])
+qml.RZ(weights[1], wires=1)
+qml.CNOT(wires=[0, 1])
+qml.RZ(weights[2], wires=2)
+qml.RX(weights[3], wires=1)
+qml.RX(weights[4], wires=1)
+--------------------
+
+
+Individual 96
+[432, 112, 111]
+Fitness: 61.0%
+qml.Hadamard(wires=3)
+qml.RX(weights[0], wires=1)
+qml.RX(weights[1], wires=1)
+--------------------
+
+
+Individual 97
+[432, 212, 111]
+Fitness: 61.0%
+qml.Hadamard(wires=3)
+qml.RZ(weights[0], wires=1)
+qml.RX(weights[1], wires=1)
+--------------------
+
+
+Individual 98
+[433, 230, 211, 331, 221, 111, 110]
+Fitness: 61.0%
+qml.Hadamard(wires=3)
+qml.RZ(weights[0], wires=3)
+qml.RZ(weights[1], wires=1)
+qml.CNOT(wires=[3, 1])
+qml.RZ(weights[2], wires=2)
+qml.RX(weights[3], wires=1)
+qml.RX(weights[4], wires=1)
+--------------------
+
+
+Individual 99
+[321, 210, 430]
+Fitness: 61.0%
+qml.CNOT(wires=[2, 1])
+qml.RZ(weights[0], wires=1)
+qml.Hadamard(wires=3)
+--------------------
+
+
+Individual 100
+[303, 123, 220, 203, 201, 111, 101]
+Fitness: 61.0%
+qml.CNOT(wires=[0, 3])
+qml.RX(weights[0], wires=2)
+qml.RZ(weights[1], wires=2)
+qml.RZ(weights[2], wires=0)
+qml.RZ(weights[3], wires=0)
+qml.RX(weights[4], wires=1)
+qml.RX(weights[5], wires=0)
+--------------------
